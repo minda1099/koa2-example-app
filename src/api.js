@@ -1,4 +1,5 @@
 import KoaRouter from 'koa-router';
+import userModel from '../models/user'
 
 const api = KoaRouter();
 
@@ -17,6 +18,10 @@ const validateKey = async (ctx, next) => {
   }
   await next();
 }
+
+api.get('/event', async(ctx, next) => {
+    ctx.body = 'user'
+})
 
 api.get('/:collection/:attribute/:value/count',
   validateKey,

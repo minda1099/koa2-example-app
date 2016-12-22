@@ -8,7 +8,7 @@ try {
   key = require('../config/key');
 } catch (err) {
   console.error('../config/key.json is not found. Please create it.')
-  process.exit(1);
+ // process.exit(1);
 }
 
 export default {

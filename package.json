@@ -26,6 +26,7 @@
     "koa": "^2.0.0-alpha.3",
     "koa-bodyparser": "^3.0.0",
     "koa-router": "^7.0.1",
+    "mongoose": "^4.7.4",
     "promise-redis": "0.0.5",
     "redis": "^2.4.2"
   },
